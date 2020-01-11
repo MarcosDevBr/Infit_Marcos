@@ -29,5 +29,6 @@ const Bola = styled.div`
     border-radius: 50px;
     left: ${props => props.cebolinha ? '0' : '90%'};
     transition: left 2s;
+    
 `
 

@@ -15,6 +15,12 @@ import ListaDeCasamento from './exercicios/ListaDeCasamento';
 import Imc from './exercicios/Imc';
 import SequenciaFibonacci from './exercicios/SequenciaFibonacci';
 import UtilizandoBiblioteca from './exercicios/UtilizandoBibliotecaDeDesing';
+import OdernarFiveNumbers from './exercicios/OdernarFiveNumbers';
+import NovoIncrementador from './exercicios/novoIncrementador';
+import ListaDePessoas from './exercicios/ListaDePessoas';
+import CirculoOuQuadrado from './exercicios/CirculoOuQuadrado';
+import ModalExercicios from './exercicios/ModalExercicios'
+import AdicionarCards from './exercicios/AdicionarCards'
 
 function App() {
   return (
@@ -29,9 +35,20 @@ function App() {
       {/* <ValidacaoDeLogin/> */}
       {/* <BotaoQuebrado titulo={'Olha que texto gigante que o lucas esta escrevendo'}/> */}
       {/* {<ListaDeCasamento />} */}
-      {<UtilizandoBiblioteca />}
+      {/* {<UtilizandoBiblioteca />} */}
       {/*{<Imc />}*/}
       {/*{<SequenciaFibonacci />}*/}
+      {/* {<OdernarFiveNumbers/>} */}
+      {/* {<NovoIncrementador/>} */}
+      {/* <ListaDePessoas/> */}
+      {/* <CirculoOuQuadrado/> */}
+      {/* <ModalExercicios/> */}
+      {/* <Proper /> */}
+      <AdicionarCards/>
+
+      
+
+
     </div>
   );
 }
